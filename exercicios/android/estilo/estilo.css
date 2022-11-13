@@ -53,7 +53,7 @@ nav > a {
     color: var(--cor00);
     text-decoration: none;
     font-weight: bold;
-    transition-duration: 0.7s;
+    transition-duration: 0.2s;
     padding-left: 7px;
     padding-right: 7px;
     }
