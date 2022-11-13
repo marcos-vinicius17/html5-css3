@@ -117,7 +117,7 @@ main p {
 
 main strong {
     color: var(--cor05);
-    padding: 2px 5px;
+    padding: 1px 1px;
 }
 
 main a {
@@ -171,7 +171,7 @@ div.video > iframe {
 }
 
 aside {
-    background-color: var(--cor01);
+    background-color: var(--cor00);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.274);
@@ -189,6 +189,24 @@ aside > h3 {
     padding: 5px;
     margin: -10px -10px 0 -10px;
     border-radius: 10px 10px 0 0;
+}
+
+a.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor05);
+    background-color: var(--cor02);
+    padding: 1px 1px;
+}
+
+a.link:hover {
+    text-decoration: underline;
+    color: var(--cor04);
+
+}
+
+a.link::after {
+    content: '\1F517';
 }
 
 footer {
