@@ -62,7 +62,7 @@ nav a:hover {
     color: black;
     background-color: var(--cor02);
     text-decoration: underline;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 header > h1 {
